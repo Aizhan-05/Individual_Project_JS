@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>aD Online Studio</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <!-- Логотип -->
+          <div class="header__logo">
+            <a href="#hero" class="header__logo-link">
+              <img
+                src="images/logo-aD.png"
+                alt="Логотип aD"
+                class="header__logo-img"
+              />
+            </a>
+          </div>
+
+          <!-- Навигационное меню -->
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#hero" class="header__link active">Главная</a>
+              </li>
+              <li class="header__item">
+                <a href="#about" class="header__link">О студии</a>
+              </li>
+              <li class="header__item">
+                <a href="#portfolio" class="header__link">Портфолио</a>
+              </li>
+              <li class="header__item">
+                <a href="#testimonials" class="header__link">Отзывы</a>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">Услуги</a>
+              </li>
+              <li class="header__item">
+                <a href="#contact" class="header__link">Контакты</a>
+              </li>
+            </ul>
+
+            <div class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
+            </div>
+          </nav>
+
+          <!-- Бургер-меню для мобильных устройств -->
+          <div class="header__burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="hero__title">
+              aD Online Studio: <br />
+              Креативные решения для вашего бизнеса
+            </h1>
+            <p class="hero__subtitle">
+              Инновационный дизайн, веб-разработки и маркетинговые стратегии с
+              фокусом на результат.
+            </p>
+            <a href="https://wa.me/77076932539" target="_blank">
+              <button class="hero__button">Получить онлайн консультацию</button>
+            </a>
+          </div>
+
+          <div class="hero__slider">
+            <div class="slider__images">
+              <img
+                src="./images/svg/Дизайн.svg"
+                alt="Дизайн"
+                class="slider__image"
+              />
+              <img
+                src="./images/svg/Веб-разработка.svg"
+                alt="Веб-разработка"
+                class="slider__image"
+              />
+              <img
+                src="./images/svg/Маркетинг.svg"
+                alt="Маркетинг"
+                class="slider__image"
+              />
+              <img
+                src="./images/svg/Видеомонтаж.svg"
+                alt="Видеомонтаж"
+                class="slider__image"
+              />
+            </div>
+            <div class="slider__labels">
+              <span class="slider__label">Дизайн</span>
+              <span class="slider__label">Веб-разработка</span>
+              <span class="slider__label">Маркетинг</span>
+              <span class="slider__label">Видеомонтаж</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="about__container">
+          <div class="about__photo">
+            <img
+              src="./images/Aizhan Daurenovna.jpg"
+              alt="Айжан Дауреновна"
+              class="about__img"
+            />
+          </div>
+          <div class="about__text">
+            <h2 class="about__title">О студии aD</h2>
+            <p>
+              Я — Айжан Дауреновна, основатель
+              <b>aD Online Studio</b>. Я помогу вам воплотить самые смелые идеи
+              в жизнь!
+            </p>
+            <p>
+              В <b>aD Online Studio</b> я создаю не просто сайты — я создаю
+              решения, которые работают. Работая удаленно, я предоставляю
+              индивидуальный подход каждому проекту, гарантируя высокое качество
+              и внимание к деталям.
+            </p>
+            <p>
+              <b>Моя цель</b> — помочь вам выделиться на рынке, используя
+              инновационные подходы и эффективные стратегии.
+            </p>
+            <p>
+              Работая со мной, вы получите полный спектр услуг:
+              <b>от идеи до реализации</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="portfolio__container">
+          <div class="portfolio__text">
+            <h2 class="portfolio__title">
+              Портфолио: результаты, которые впечатляют
+            </h2>
+            <p>
+              Я горжусь каждым проектом, над которым работала, и с радостью
+              делюсь с вами примерами своей работы. В портфолио представлены как
+              крупные проекты, так и решения для малого бизнеса.
+            </p>
+          </div>
+
+          <!-- Вкладки категорий -->
+          <div class="portfolio-tabs">
+            <button class="portfolio-tab active" data-category="design">
+              Дизайн
+            </button>
+            <button class="portfolio-tab" data-category="web">
+              Веб-разработка
+            </button>
+            <button class="portfolio-tab" data-category="marketing">
+              Маркетинг
+            </button>
+            <button class="portfolio-tab" data-category="video">
+              Видеомонтаж
+            </button>
+          </div>
+
+          <!-- Контент для каждой категории -->
+          <div class="portfolio-content">
+            <!-- Дизайн -->
+            <div class="portfolio-category active" id="design">
+              <p>
+                Разработка логотипов, фирменных стилей и рекламных материалов
+                ...
+              </p>
+              <div class="portfolio-items">
+                <div class="portfolio-item">
+                  <img
+                    src="./images/Akbota Zholdasbekk - 1.jpg"
+                    alt="Работа 1"
+                  />
+                  <h4>Логотип для студии моды "Akbota Zholdasbekk"</h4>
+                  <p>
+                    Разработка логотипа, который отражает стиль и концепцию
+                    казахстанского бренда одежды "Akbota Zholdasbekk".
+                  </p>
+                  <button class="view-more" data-modal="modal-1">
+                    Подробнее
+                  </button>
+                </div>
+
+                <div class="portfolio-item">
+                  <img src="./images/Тattiler alemi-1.png" alt="Работа 2" />
+                  <h4>
+                    Фирменный стиль для кондитерского магазина "Tattiler alemi"
+                  </h4>
+                  <p>
+                    Разработка фирменного стиля для кондитерского магазина,
+                    который подчеркивает уникальность бренда и привлекает
+                    внимание клиентов.
+                  </p>
+                  <button class="view-more" data-modal="modal-2">
+                    Подробнее
+                  </button>
+                </div>
+
+                <div class="portfolio-item">
+                  <img src="./images/буклет-1.jpeg" alt="Работа 3" />
+                  <h4>Дизайн листовок для компании "Лучший мебельный"</h4>
+                  <p>
+                    Разработка дизайна листовок для компании "Лучший мебельный"
+                    в соответствии с фирменным стилем.
+                  </p>
+                  <button class="view-more" data-modal="modal-3">
+                    Подробнее
+                  </button>
+                </div>
+
+                <!-- Другие карточки -->
+              </div>
+            </div>
+
+            <!-- Веб-разработка -->
+            <div class="portfolio-category" id="web">
+              <p>Создание лендингов и сайтов ...</p>
+              <div class="portfolio-items">
+                <div class="portfolio-item">
+                  <img src="./images/Meruna-1.jpg" alt="Работа 4" />
+                  <h4>Лендинг для компании Meruna Limited</h4>
+                  <p>
+                    Разработка адаптивного лендинга для Meruna Limited, который
+                    эффективно представляет компанию и её продукты.
+                  </p>
+                  <button class="view-more" data-modal="modal-webdev-1">
+                    Подробнее
+                  </button>
+                </div>
+
+                <div class="portfolio-item">
+                  <img src="./images/IT - 1.png" alt="Работа 5" />
+                  <h4>Информационный сайт "IT технология информатика"</h4>
+                  <p>
+                    Разработка сайта "IT Технология Информатика" для школьников
+                    с целью популяризации IT и ознакомления с ключевыми
+                    аспектами.
+                  </p>
+                  <button class="view-more" data-modal="modal-webdev-2">
+                    Подробнее
+                  </button>
+                </div>
+
+                <div class="portfolio-item">
+                  <img src="./images/WhiteRock.png" alt="Работа 6" />
+                  <h4>Лендинг для компании White Rock</h4>
+                  <p>
+                    Разработка лендинга для компании White Rock на платформе
+                    Tilda с адаптивным дизайном для ПК, мобильных устройств и
+                    планшетов.
+                  </p>
+                  <button class="view-more" data-modal="modal-webdev-3">
+                    Подробнее
+                  </button>
+                </div>
+                <!-- Другие карточки -->
+              </div>
+            </div>
+
+            <!-- Маркетинг -->
+            <div class="portfolio-category" id="marketing">
+              <p>
+                Комплексный подход к продвижению, создание стратегий таргетинга
+                и аналитика ...
+              </p>
+              <div class="portfolio-items">
+                <div class="portfolio-item">
+                  <img src="./images/Визитка - 1.png" alt="Работа 7" />
+                  <h4>Рекламная кампания для остеопата</h4>
+                  <p>
+                    Разработка рекламной кампании для остеопата: создание
+                    бренда, оформление соцсетей и настройка таргетированной
+                    рекламы.
+                  </p>
+                  <button class="view-more" data-modal="modal-market-1">
+                    Подробнее
+                  </button>
+                </div>
+                <!-- Другие карточки -->
+              </div>
+            </div>
+
+            <!-- Видеомонтаж -->
+            <div class="portfolio-category" id="video">
+              <p>
+                Создание видеороликов, монтаж для рекламных кампаний и
+                социальных сетей ...
+              </p>
+              <div class="portfolio-items">
+                <div class="portfolio-item">
+                  <img src="./images/Визитка - 1.png" alt="Работа 8" />
+                  <h4>
+                    Видеореклама и контент для соцсетей: Жанара Сансызбаевна
+                  </h4>
+                  <p>
+                    Создание видеороликов для рекламной кампании и соцсетей
+                    остеопата Жанары Сансызбаевны: разработка креативных
+                    видеоматериалов для продвижения услуг.
+                  </p>
+                  <button class="view-more" data-modal="modal-video-1">
+                    Подробнее
+                  </button>
+                </div>
+                <!-- Другие карточки -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Модальные окна -->
+          <div class="modal" id="modal-1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Логотип для студии моды "Akbota Zholdasbekk"</h3>
+              <p>
+                Для бренда "Akbota Zholdasbekk" был разработан уникальный
+                логотип и полный фирменный стиль, который отражает характер
+                казахстанского бренда одежды. В рамках проекта был создан дизайн
+                визиток, бирок и флаеров, что позволило сформировать цельный и
+                гармоничный образ бренда. Логотип был адаптирован для
+                использования в социальных сетях и как водяной знак для фото и
+                видео, что обеспечило высокую узнаваемость бренда.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-1"
+                  src="./images/Akbota Zholdasbekk - 1.jpg"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+
+              <div class="modal-thumbnails">
+                <img
+                  src="./images/Akbota Zholdasbekk - 1.jpg"
+                  alt="Миниатюра 1"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Akbota Zholdasbekk - 2.jpeg"
+                  alt="Миниатюра 2"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Akbota Zholdasbekk - 3.png"
+                  alt="Миниатюра 3"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Akbota Zholdasbekk - 4.png"
+                  alt="Миниатюра 4"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Akbota Zholdasbekk - 5.png"
+                  alt="Миниатюра 5"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Akbota Zholdasbekk - 6.png"
+                  alt="Миниатюра 6"
+                  class="thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-2">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>
+                Фирменный стиль для кондитерского магазина "Tattiler alemi"
+              </h3>
+              <p>
+                В рамках проекта был разработан полный фирменный стиль для
+                кондитерского магазина "Tattiler alemi". Создание логотипа,
+                оформление социальных сетей и дизайн вывески, стикеров для
+                упаковок и других элементов подчеркнули атмосферу уюта и
+                сладости, формируя яркий и запоминающийся образ бренда,
+                привлекательный для покупателей.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-2"
+                  src="./images/Тattiler alemi-1.png"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+
+              <div class="modal-thumbnails">
+                <img
+                  src="./images/Тattiler alemi-1.png"
+                  alt="Миниатюра 1"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/Тattiler alemi-2.png.png"
+                  alt="Миниатюра 2"
+                  class="thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-3">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Дизайн листовок для компании "Лучший мебельный"</h3>
+              <p>
+                Для компании "Лучший мебельный" был разработан дизайн листовок,
+                полностью соответствующих фирменному стилю. Особое внимание
+                уделено добавлению QR-кода, который направляет клиентов на
+                страницу компании в Instagram, обеспечивая быстрый доступ к
+                новым моделям мебели и актуальным акциям.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-3"
+                  src="./images/буклет-1.jpeg"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+
+              <div class="modal-thumbnails">
+                <img
+                  src="./images/буклет-1.jpeg"
+                  alt="Миниатюра 1"
+                  class="thumbnail"
+                />
+                <img
+                  src="./images/буклет-2.jpeg"
+                  alt="Миниатюра 2"
+                  class="thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-webdev-1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Лендинг для компании Meruna Limited</h3>
+              <p>
+                Был разработан адаптивный лендинг для компании Meruna Limited,
+                который эффективно представляет корпоративную информацию и
+                продукцию. Сайт был создан с акцентом на современный дизайн и
+                удобный интерфейс, обеспечив успешную работу на различных
+                устройствах. Лендинг включает ключевые разделы: информация о
+                компании, проекты, продукция и контакты, что позволило
+                эффективно представить компанию на международном рынке и
+                улучшить взаимодействие с клиентами. <br />Посмотреть проект
+                можно по ссылке:
+                <a href="https://www.meruna.hk/" target="_blank"
+                  >www.meruna.hk</a
+                >.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-4"
+                  src="./images/Meruna-1.jpg"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-webdev-2">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Информационный сайт "IT Технология Информатика"</h3>
+              <p>
+                Был разработан многостраничный информационный сайт
+                <strong>"IT Технология Информатика"</strong>, предназначенный
+                для школьников. Сайт включает в себя девять разделов, которые
+                позволяют комплексно ознакомиться с ключевыми аспектами
+                IT-технологий.
+              </p>
+              <p>Разделы включают:</p>
+              <ul>
+                <li>Компьютерная грамотность</li>
+                <li>Типы языков программирования</li>
+                <li>Front-end разработка</li>
+                <li>Back-end разработка</li>
+                <li>Мобильная разработка</li>
+                <li>Разработка игр</li>
+                <li>Графический дизайн</li>
+                <li>3D графика</li>
+                <li>Платформа KODOQU</li>
+              </ul>
+              <p>
+                Пройдя по QR-коду с помощью смартфона или планшета, учащиеся
+                могут быстро и удобно ознакомиться с материалами, что
+                способствует легкому освоению и вовлечению в изучение
+                современных технологий.
+              </p>
+              <p>
+                Посмотреть проект можно по ссылке:
+                <a href="https://it.attechedu.kz/" target="_blank"
+                  >www.it.attechedu.kz</a
+                >.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-5"
+                  src="./images/IT - 2.png"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-webdev-3">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Лендинг для компании White Rock</h3>
+              <p>
+                Для компании White Rock был разработан адаптивный лендинг на
+                платформе Tilda с использованием Zero блоков. Структура сайта
+                включает главную страницу, разделы о компании, услуги, команда,
+                контакты и карьера. Сайт был спроектирован в соответствии с
+                готовым дизайном в Figma, предоставленным заказчиком. Разработка
+                включает полную адаптацию для ПК, мобильных устройств и
+                планшетов, обеспечивая удобство использования на любых экранах.
+                <br />Посмотреть проект можно по ссылке:
+                <a href="https://whiterock.agency.tilda.ws/" target="_blank"
+                  >whiterock.agency.tilda.ws</a
+                >.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-6"
+                  src="./images/WhiteRock.png"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-market-1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Рекламная кампания для остеопата</h3>
+              <p>
+                Для остеопата Жанары Сансызбаевны была разработана рекламная
+                кампания с нуля, включая создание логотипа, дизайн постов и рилс
+                для социальных сетей, а также дизайн прайса и визитки. Оформлены
+                страницы в соцсетях, проведена настройка таргетированной рекламы
+                в Instagram через Ads Manager, и кампания была успешно запущена.
+                Всё это способствовало продвижению услуг и привлечению новых
+                клиентов. <br />Посмотреть проект можно по ссылке:
+                <a
+                  href="https://www.instagram.com/zhanara.osteo"
+                  target="_blank"
+                  >zhanara.osteo</a
+                >.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-7"
+                  src="./images/Визитка - 1.png"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="modal-video-1">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3>Видеореклама и контент для соцсетей: Жанара Сансызбаевна</h3>
+              <p>
+                Для остеопата Жанары Сансызбаевны были разработаны видеоролики
+                для рекламной кампании и социальных сетей, направленные на
+                привлечение новых клиентов и информирование о её услугах.
+                Видеоконтент был создан с акцентом на профессионализм и
+                индивидуальный подход, что позволило эффективно продвигать
+                услуги остеопата в социальных медиа и увеличить вовлеченность
+                аудитории. <br />Посмотреть проект можно по ссылке:
+                <a
+                  href="https://www.instagram.com/zhanara.osteo"
+                  target="_blank"
+                  >zhanara.osteo</a
+                >.
+              </p>
+              <div class="modal-image-container">
+                <img
+                  id="main-image-8"
+                  src="./images/Визитка - 1.png"
+                  alt="Основное изображение"
+                  class="modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Другие модальные окна -->
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="testimonials-header">
+          <h2 class="testimonials-title">
+            Отзывы, которые говорят сами за себя:
+          </h2>
+          <div class="testimonials-nav">
+            <div class="testimonials-btn left-btn">
+              <span class="arrow">&#8592;</span>
+            </div>
+            <div class="testimonials-btn right-btn">
+              <span class="arrow">&#8594;</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials">
+          <div class="testimonials-container">
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 1.png" alt="Отзыв 1" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 2.png" alt="Отзыв 2" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 3.png" alt="Отзыв 3" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 4.png" alt="Отзыв 4" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 5.png" alt="Отзыв 5" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 6.png" alt="Отзыв 6" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 7.png" alt="Отзыв 7" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 8.png" alt="Отзыв 8" />
+            </div>
+            <div class="testimonial-slide">
+              <img src="./images/Отзывы - 9.png" alt="Отзыв 9" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Услуги студии aD: всё, что нужно для вашего бизнеса</h2>
+        <div class="services__container">
+          <div class="service-category">
+            <h3>Дизайн</h3>
+            <ul>
+              <li>Разработка дизайна логотипа</li>
+              <li>Разработка фирменного стиля</li>
+              <li>Дизайн визиток</li>
+              <li>Дизайн обложек, постов и видеороликов для соцсетей</li>
+              <li>Дизайн баннеров</li>
+              <li>Дизайн меню / прайс-листов</li>
+              <li>Дизайн листовок, брошюр и буклетов</li>
+              <li>Дизайн презентаций</li>
+              <li>Дизайн пригласительных</li>
+              <li>Дизайн упаковки товаров</li>
+              <li>и другие услуги</li>
+            </ul>
+            <a
+              href="https://wa.me/87076932539?text=Здравствуйте,%20хочу%20заказать%20дизайн%20..."
+              class="cta-button"
+              target="_blank"
+              >Заказать дизайн</a
+            >
+          </div>
+
+          <div class="service-category">
+            <h3>Веб-разработка</h3>
+            <ul>
+              <li>Создание лендингов</li>
+              <li>Разработка корпоративных сайтов</li>
+              <li>Разработка интернет-магазинов</li>
+              <li>SEO-оптимизация</li>
+              <li>Поддержка и обновление сайтов</li>
+            </ul>
+            <a
+              href="https://wa.me/87076932539?text=Здравствуйте,%20хочу%20заказать%20разработку%20сайта"
+              class="cta-button"
+              target="_blank"
+              >Заказать разработку сайта</a
+            >
+          </div>
+
+          <div class="service-category">
+            <h3>Маркетинг</h3>
+            <ul>
+              <li>Таргетированная реклама в соцсетях</li>
+              <li>Контекстная реклама в Google Ads / Яндекс Директ</li>
+              <li>Аналитика / настройка и запуск рекламных кампаний</li>
+            </ul>
+            <a
+              href="https://wa.me/87076932539?text=Здравствуйте,%20хочу%20заказать%20запуск%20рекламной%20кампании"
+              class="cta-button"
+              target="_blank"
+              >Заказать рекламу</a
+            >
+          </div>
+
+          <div class="service-category">
+            <h3>Видеомонтаж</h3>
+            <ul>
+              <li>Монтаж рекламных видеороликов</li>
+              <li>Создание видео для соцсетей</li>
+              <li>Видеопрезентации / видеоприглашении</li>
+              <li>Обработка и монтаж видео с мероприятий</li>
+              <li>Монтаж видеообзоров продукции</li>
+              <li>и другие</li>
+            </ul>
+            <a
+              href="https://wa.me/87076932539?text=Здравствуйте,%20хочу%20заказать%20видеомонтаж"
+              class="cta-button"
+              target="_blank"
+              >Заказать видеомонтаж</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p>
+          Готовы обсудить проект? Я всегда открыта для новых задач и готова
+          предложить решения, которые помогут вашему бизнесу расти и
+          развиваться.
+        </p>
+        <ul>
+          <li>
+            <b>Телефон (WhatsApp):</b>
+            <a href="tel:+77076932539">+7 707 693 25 39</a>
+          </li>
+          <li>
+            <b>Электронная почта:</b>
+            <a href="mailto:aizhan.daurenkyzy@gmail.com"
+              >aizhan.daurenkyzy@gmail.com</a
+            >
+          </li>
+        </ul>
+        <br />
+        <p>
+          Также вы можете заполнить форму ниже, и я обязательно свяжусь с вами в
+          ближайшее время:
+        </p>
+        <form class="contact-form">
+          <div class="contact-form__container">
+            <div id="name-input" class="contact-form__block">
+              <label class="contact-form__label">Имя</label>
+              <input
+                type="text"
+                name="name"
+                class="contact-form__input"
+                placeholder="Введите ваше имя"
+              />
+              <span class="error-message"></span>
+            </div>
+            <div id="email-input" class="contact-form__block">
+              <label class="contact-form__label">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                class="contact-form__input"
+                placeholder="Введите вашу почту"
+              />
+              <span class="error-message"></span>
+            </div>
+            <div id="message-input" class="contact-form__block">
+              <label class="contact-form__label">Сообщение</label>
+              <textarea
+                class="contact-form__input"
+                name="message"
+                placeholder="Ваше сообщение"
+              ></textarea>
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <button type="submit" class="contact-form__submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2025 aD Online Studio. Все права защищены.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
