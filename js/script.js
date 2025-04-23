@@ -1,3 +1,5 @@
+// 1 - Код - для бургер-меню:
+
 const burger = document.querySelector(".header__burger");
 const nav = document.querySelector(".header__nav");
 
@@ -15,7 +17,7 @@ document.querySelectorAll(".header__link").forEach((link) => {
   });
 });
 
-// 1 - Код для слайдера в блоке hero:
+// 2 - Код для слайдера в блоке hero:
 document.addEventListener("DOMContentLoaded", function () {
   const images = document.querySelectorAll(".slider__image");
   const labels = document.querySelectorAll(".slider__label");
@@ -40,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   changeSlide();
 });
 
-// 2 - Код для вкладок в блоке portfolio:
+// 3 - Код для вкладок в блоке portfolio:
 // Получаем все кнопки вкладок
 const tabs = document.querySelectorAll(".portfolio-tab");
 const categories = document.querySelectorAll(".portfolio-category");
@@ -126,9 +128,8 @@ thumbnails.forEach((thumbnail) => {
   });
 });
 
-// 3 - Testimonials Section - для работы слайдера
+// 4 - Код  для работы слайдера в блоке Testimonials:
 
-// 3 - Testimonials Section - для работы слайдера
 document.addEventListener("DOMContentLoaded", function () {
   const slides = document.querySelectorAll(".testimonial-slide");
   const totalSlides = slides.length;
@@ -164,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, 5000);
 });
 
-// Contact
+// 5 - Формы в блоке Contact:
 
 const supportForm = document.querySelector(".contact-form");
 const nameInput = document.querySelector("input[name='name']");
